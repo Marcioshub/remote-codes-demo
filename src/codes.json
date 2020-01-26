@@ -18952,16 +18952,6 @@
   {
     "device": "SOUNDBAR",
     "brand": "ONN",
-    "code": "3562"
-  },
-  {
-    "device": "SOUNDBAR",
-    "brand": "ONN",
-    "code": "3547"
-  },
-  {
-    "device": "SOUNDBAR",
-    "brand": "ONN",
     "code": "3569"
   },
   {
@@ -18978,6 +18968,11 @@
     "device": "SOUNDBAR",
     "brand": "ONN",
     "code": "3572"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3547"
   },
   {
     "device": "SOUNDBAR",
