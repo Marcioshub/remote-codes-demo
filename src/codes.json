@@ -441,6 +441,11 @@
   },
   {
     "device": "TV",
+    "brand": "BLACKWEB",
+    "code": "3566"
+  },
+  {
+    "device": "TV",
     "brand": "BLUESKY",
     "code": "0144"
   },
@@ -3318,6 +3323,41 @@
     "device": "TV",
     "brand": "ONKYO",
     "code": "1884"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3560"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3561"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3568"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3569"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3571"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3574"
+  },
+  {
+    "device": "TV",
+    "brand": "ONN",
+    "code": "3575"
   },
   {
     "device": "TV",
@@ -11752,6 +11792,21 @@
   {
     "device": "AUDIO",
     "brand": "BLACKWEB",
+    "code": "3564"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "BLACKWEB",
+    "code": "3566"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "BLACKWEB",
+    "code": "3573"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "BLACKWEB",
     "code": "0047"
   },
   {
@@ -13288,6 +13343,46 @@
     "device": "AUDIO",
     "brand": "ONKYO",
     "code": "4167"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3562"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3563"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3565"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3567"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3569"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3570"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3571"
+  },
+  {
+    "device": "AUDIO",
+    "brand": "ONN",
+    "code": "3572"
   },
   {
     "device": "AUDIO",
@@ -17886,6 +17981,21 @@
   },
   {
     "device": "SOUNDBAR",
+    "brand": "BLACKWEB",
+    "code": "3564"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "BLACKWEB",
+    "code": "3566"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "BLACKWEB",
+    "code": "3573"
+  },
+  {
+    "device": "SOUNDBAR",
     "brand": "BOHM",
     "code": "4413"
   },
@@ -18827,7 +18937,47 @@
   {
     "device": "SOUNDBAR",
     "brand": "ONN",
+    "code": "3562"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3563"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3565"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3562"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
     "code": "3547"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3569"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3570"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3571"
+  },
+  {
+    "device": "SOUNDBAR",
+    "brand": "ONN",
+    "code": "3572"
   },
   {
     "device": "SOUNDBAR",

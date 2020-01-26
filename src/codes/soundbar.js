@@ -8,6 +8,7 @@ export default function soundbar() {
     "AUDIOSOURCE",
     "AUDIOVOX",
     "AXESS",
+    "BLACKWEB",
     "BOHM",
     "BOSE",
     "BOSTON ACOUSTICS",
