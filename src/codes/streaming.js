@@ -1,0 +1,33 @@
+export default function streaming() {
+  return [
+    "AIRTV",
+    "APPLE",
+    "ASUS",
+    "BOXEE",
+    "CHANNEL MASTER",
+    "D-LINK",
+    "IOMEGA",
+    "IVIEW",
+    "LG",
+    "LOGITECH",
+    "MAGIC TV",
+    "MAGNAVOX",
+    "MATRICOM",
+    "MICCA",
+    "NETGEAR",
+    "PHILIPS",
+    "POPCORN HOUR",
+    "RCA",
+    "ROKU",
+    "SEAGATE",
+    "SLING",
+    "SONY",
+    "TIVO",
+    "VIZIO",
+    "WESTERN DIGITAL",
+    "XBOX",
+    "XBOX 1",
+    "XBOX 360",
+    "XIAOMI"
+  ];
+}
