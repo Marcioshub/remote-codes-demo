@@ -82,24 +82,16 @@ export default function MultilineTextFields() {
   const [key, setKey] = React.useState("");
 
   React.useEffect(() => {
-    console.log("current device: ", device);
-    console.log("current brand: ", brand);
-
-    if (brand === "") {
-      // reset codes
-      //setCodes([]);
-      //setKey("");
-    } else {
-      var tmp = [];
+    if (brand !== "") {
+      var newCodes = [];
       var index = 0;
       for (var i = 0; i < codeList.length; i++) {
         if (codeList[i].device === device && codeList[i].brand === brand) {
-          console.log(codeList[i].code);
-          tmp.push({ key: index, label: codeList[i].code });
+          newCodes.push({ key: index, label: codeList[i].code });
           index++;
         }
       }
-      setCodes(tmp);
+      setCodes(newCodes);
       setKey(brand);
     }
     // eslint-disable-next-line
@@ -156,7 +148,6 @@ export default function MultilineTextFields() {
 
   function changeBrand(event) {
     setBrand(event.target.value);
-    //console.log(event.target.value);
   }
 
   function listBrands() {
