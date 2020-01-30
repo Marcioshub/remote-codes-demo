@@ -1,42 +1,30 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./App.css";
 import Navigationbar from "./components/Navigationbar";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-import NewInputs from "./components/Inputs";
-
-import remote from "./images/remote.png";
-
-import Footer from "./components/Footer";
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-
-    textAlign: "center"
-  }
-});
+import Home from "./Home";
 
 function App() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
+    <div style={{ position: "relative", textAlign: "center", height: "100vh" }}>
       <Navigationbar />
+
+      <Home />
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <div>
-        <Typography variant="h2" gutterBottom>
-          Remote Codes
+      <div
+        style={{
+          position: "relative",
+          bottom: 0,
+          textAlign: "center",
+          width: "100%"
+        }}
+      >
+        <Typography variant="overline" display="block" gutterBottom>
+          Beam® is a registered trademark of Southern Telecom, Inc.
         </Typography>
       </div>
-
-      <img src={remote} />
-
-      <NewInputs />
     </div>
   );
 }
