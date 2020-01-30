@@ -13,23 +13,15 @@ const useStyles = makeStyles(theme => ({
   },
   chip: {
     margin: theme.spacing(0.5),
-    height: 40,
-    width: 90,
-    fontSize: 20
+    height: 30,
+    width: 85,
+    fontSize: 16
   }
 }));
 
 export default function ChipsArray(props) {
   const classes = useStyles();
   console.log("called from chips", props.chips);
-  /*
-  const [chipData, setChipData] = React.useState([
-    { key: 0, label: "Angular" },
-    { key: 1, label: "jQuery" },
-    { key: 2, label: "Polymer" },
-    { key: 3, label: "React" },
-    { key: 4, label: "Vue.js" }
-  ]);*/
 
   const [chipData, setChipData] = React.useState(props.chips);
 

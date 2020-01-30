@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Navigationbar from "./components/Navigationbar";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import NewInputs from "./components/Inputs";
@@ -25,7 +24,7 @@ function App() {
         </Typography>
       </div>
 
-      <img src={remote} />
+      <img src={remote} alt="remote" />
 
       <NewInputs />
     </div>

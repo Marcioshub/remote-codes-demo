@@ -4,8 +4,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { fade, makeStyles } from "@material-ui/core/styles";
 
-import logo from "../images/beam-logo.png";
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1
