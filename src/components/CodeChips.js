@@ -12,7 +12,10 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(0.5)
   },
   chip: {
-    margin: theme.spacing(0.5)
+    margin: theme.spacing(0.5),
+    height: 40,
+    width: 90,
+    fontSize: 20
   }
 }));
 

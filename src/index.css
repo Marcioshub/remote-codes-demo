@@ -10,3 +10,11 @@ body {
 .MuiMenu-paper {
   height: 300px !important;
 }
+
+.makeStyles-root-178 {
+  padding: 0 !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
