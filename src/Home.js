@@ -9,7 +9,10 @@ import remote from "./images/remote.png";
 const useStyles = makeStyles({
   root: {
     width: "100%",
-    textAlign: "center"
+    textAlign: "center",
+    "& .MuiTypography-gutterBottom": {
+      marginTop: 25
+    }
   }
 });
 
@@ -18,11 +21,9 @@ function App() {
 
   return (
     <div className={classes.root}>
-      <div>
-        <Typography variant="h2" gutterBottom>
-          Remote Codes
-        </Typography>
-      </div>
+      <Typography variant="h2" gutterBottom>
+        Remote Codes
+      </Typography>
 
       <img src={remote} alt="remote" />
 
