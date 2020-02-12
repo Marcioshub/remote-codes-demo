@@ -12,7 +12,8 @@ const useStyles = makeStyles({
     textAlign: "center",
     "& .MuiTypography-gutterBottom": {
       marginTop: 25
-    }
+    },
+    marginBottom: 50
   }
 });
 
@@ -24,9 +25,7 @@ function App() {
       <Typography variant="h2" gutterBottom>
         Remote Codes
       </Typography>
-
       <img src={remote} alt="remote" />
-
       <NewInputs />
     </div>
   );

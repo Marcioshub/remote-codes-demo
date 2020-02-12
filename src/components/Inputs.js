@@ -66,6 +66,9 @@ const useStyles = makeStyles(theme => ({
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
       width: 300
+    },
+    "& .MuiInputLabel-outlined": {
+      zIndex: 0
     }
   }
 }));
