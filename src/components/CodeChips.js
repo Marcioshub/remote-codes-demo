@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "center",
     flexWrap: "wrap",
     padding: theme.spacing(0.5),
-    backgroundColor: "ghostwhite"
+    backgroundColor: "#fafafa"
   },
   chip: {
     margin: theme.spacing(0.5),
